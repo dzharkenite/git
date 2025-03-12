@@ -1,0 +1,22 @@
+n = int(input())
+
+flg = True
+
+ans = 0
+
+prime = []
+
+for i in range(n):
+    l = int(input())
+    flg = True
+    
+    for m in range(2,int(l**0.5)+1):
+      if l % m == 0:
+        flg = False
+        break
+  
+    if flg:
+        #print(l)
+        ans = ans +1
+    
+print(ans)
