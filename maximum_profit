@@ -5,8 +5,8 @@ list = []
 for i in range(n):
     
     list.append(int(input()))
-    print(list[i])
-ans =-99999999
+    #print(list[i])
+ans =-9999999999999
 
 for m in range(n-1):
     
