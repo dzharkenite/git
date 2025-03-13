@@ -6,12 +6,12 @@ for i in range(n):
     
     list.append(int(input()))
     print(list[i])
-ans = 0
+ans =-99999999
 
 for m in range(n-1):
     
     temp = max(list[m+1:n]) - list[m]
-    print(temp)
+    #print(temp)
     if ans < temp:
         ans = temp
 
