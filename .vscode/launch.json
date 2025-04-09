@@ -5,6 +5,21 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "kotlin",
+            "request": "launch",
+            "name": "Kotlin Launch",
+            "projectRoot": "${workspaceFolder}",
+            "mainClass": "path.to.your.MainClassKt"
+        },
+        {
+            "type": "kotlin",
+            "request": "launch",
+            "name": "Kotlin Launch",
+            "projectRoot": "${workspaceFolder}",
+            "mainClass": "path.to.your.MainClassKt"
+            // "args" property removed as it is not allowed
+        },
+        {
             "name": "Python: Current File (Integrated Terminal)",
             "type": "debugpy",
             "request": "launch",
@@ -19,7 +34,7 @@
             "program": "${file}",
             "args": ["<", "test.txt"],
             "console": "externalTerminal"
-        }
+        },
         {
             "name": "Python: Current File",
             "type": "debugpy",
